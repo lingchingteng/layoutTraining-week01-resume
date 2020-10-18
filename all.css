@@ -1,0 +1,283 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* CSS Reset */
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    margin-bottom: 48px;
+}
+
+.header h1 {
+    font-size: 80px;
+    line-height: 94px;
+    margin-top: 47px;
+    border-bottom: 2px solid #000;
+    margin-bottom: 48px;
+}
+
+.profile,
+.education,
+.work {
+    font-size: 24px;
+    line-height: 36px;
+    margin-bottom: 72px;
+}
+
+.profile h2,
+.education h2,
+.work h2 {
+    font-size: 32px;
+    padding-bottom: 8px;
+    border-bottom: 2px solid #000000;
+    margin-bottom: 16px;
+    line-height: 43px;
+}
+
+.education h2 {
+    padding-left: 6px;
+}
+
+.profile h2 span,
+.education h2 span,
+.work h2 span {
+    font-size: 24px;
+    color: #A00404;
+    font-weight: 500;
+    margin-left: 16px;
+}
+
+.profile p,
+.education ul li {
+    margin-bottom: 24px;
+}
+
+.skill {
+    background-color: #415165;
+    padding-bottom: 36px;
+    margin-bottom: 72px;
+}
+
+.skill .container h2 {
+    padding-top: 24px;
+    font-size: 32px;
+    line-height: 45px;
+    color: #ffffff;
+    text-align: center;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #ffffff;
+    margin-bottom: 40px;
+}
+
+.skill .containre h2 span {
+    font-size: 24px;
+    line-height: 28px;
+    margin-left: 16px;
+}
+
+.skill .container ul {
+    margin: 0 auto;
+    width: 240px;
+    border-left: 1px solid #96A9C4;
+    padding-left: 24px;
+}
+
+.skill .container ul li {
+    margin-bottom: 20px;
+    font-size: 24px;
+    line-height: 36px;
+    color: #ffffff;
+    font-weight: lighter;
+}
+
+.work-inner {
+    margin-left: 24px;
+    border-left: 1px solid #96A9C4;
+    padding-left: 24px;
+    margin-bottom: 24px;
+}
+
+.work-inner ul li {
+    margin-bottom: 24px;
+}
+
+.work-inner h3 {
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.work_logo {
+    width: 90px;
+    height: 90px;
+    display: block;
+    padding: 8px 0;
+}
+
+.contact {
+    background-color: #415165;
+    padding-bottom: 36px;
+}
+
+.contact h2 {
+    padding-top: 24px;
+    text-align: center;
+    font-size: 32px;
+    line-height: 43px;
+    color: #ffffff;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #ffffff;
+    margin-bottom: 32px;
+}
+
+.contact ul li {
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    color: #ffffff;
+    font-weight: lighter;
+    margin-bottom: 16px;
+}
+
+.img-outer {
+    display: flex;
+    justify-content: space-between;
+    width: 192px;
+    margin: 0 auto;
+}
