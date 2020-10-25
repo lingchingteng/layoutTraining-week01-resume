@@ -182,9 +182,10 @@ table {
     color: #A00404;
     font-weight: 500;
     margin-left: 16px;
+    line-height: 43px;
 }
 
-.profile p,
+.profile ul li,
 .education ul li {
     margin-bottom: 24px;
 }
@@ -234,7 +235,7 @@ table {
     margin-bottom: 24px;
 }
 
-.work-inner ul li {
+.work-inner li {
     margin-bottom: 24px;
 }
 
@@ -280,4 +281,9 @@ table {
     justify-content: space-between;
     width: 192px;
     margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
 }
